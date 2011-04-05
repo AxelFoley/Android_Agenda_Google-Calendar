@@ -1,6 +1,6 @@
-package fr.mobiwide.gcalendar;
+package net.mobiwide.gcalendar;
 
-import fr.mobiwide.agenda.google.GoogleAgenda;
+import net.mobiwide.agenda.google.GoogleAgenda;
 import android.app.Activity;
 import android.os.Bundle;
 

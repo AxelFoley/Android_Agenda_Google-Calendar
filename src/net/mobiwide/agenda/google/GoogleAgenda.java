@@ -1,8 +1,10 @@
-package fr.mobiwide.agenda.google;
+package net.mobiwide.agenda.google;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
+
+import net.mobiwide.agenda.ical.ICalEvent;
 
 import android.app.Activity;
 import android.content.ContentUris;
@@ -10,7 +12,6 @@ import android.content.ContentValues;
 import android.database.Cursor;
 import android.net.Uri;
 import android.util.Log;
-import fr.mobiwide.agenda.ical.ICalEvent;
 
 public class GoogleAgenda {
 

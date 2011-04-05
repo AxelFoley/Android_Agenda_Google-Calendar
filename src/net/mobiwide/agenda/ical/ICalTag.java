@@ -1,4 +1,4 @@
-package fr.mobiwide.agenda.ical;
+package net.mobiwide.agenda.ical;
 
 public class ICalTag {
 
