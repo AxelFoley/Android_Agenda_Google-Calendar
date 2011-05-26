@@ -31,7 +31,6 @@ public class ICalEvent implements Comparable<ICalEvent> {
 		DATE_FORMAT.setTimeZone(timeZone);
 	}
 	
-	@Override
 	public int compareTo (ICalEvent another) {
 		return (this.uid.equals(another.uid))?0:-1;
 	}
